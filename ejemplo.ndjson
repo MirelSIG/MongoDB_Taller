@@ -1,0 +1,87 @@
+{"identificador":"nombre_01","nombre":"Ane","curso":"Carpintería","experiencia":1,"centro":"Peñascal","skills":["Lijado","Montaje"]}
+{"identificador":"nombre_02","nombre":"Jon","curso":"Carpintería","experiencia":2,"centro":"Peñascal","skills":["Corte","Barnizado"]}
+{"identificador":"nombre_03","nombre":"Unai","curso":"Carpintería","experiencia":0,"centro":"Peñascal","skills":["Lijado"]}
+{"identificador":"nombre_04","nombre":"Iker","curso":"Carpintería","experiencia":1,"centro":"Peñascal","skills":["Montaje","Medición"]}
+{"identificador":"nombre_05","nombre":"Aitor","curso":"Carpintería","experiencia":1,"centro":"Peñascal","skills":["Corte","Ensamblaje"]}
+{"identificador":"nombre_06","nombre":"Gaizka","curso":"Carpintería","experiencia":2,"centro":"Peñascal","skills":["CNC","Diseño 3D"]}
+{"identificador":"nombre_07","nombre":"Markel","curso":"Carpintería","experiencia":0,"centro":"Peñascal","skills":["Lijado"]}
+{"identificador":"nombre_08","nombre":"Odei","curso":"Carpintería","experiencia":1,"centro":"Peñascal","skills":["Montaje","Tornillería"]}
+{"identificador":"nombre_09","nombre":"Asier","curso":"Carpintería","experiencia":2,"centro":"Peñascal","skills":["Corte","Acabados"]}
+{"identificador":"nombre_10","nombre":"Xabier","curso":"Carpintería","experiencia":1,"centro":"Peñascal","skills":["Lijado","Montaje"]}
+
+{"identificador":"nombre_11","nombre":"Ane","curso":"Electricidad","experiencia":1,"centro":"Peñascal","skills":["Cableado","Multímetro"]}
+{"identificador":"nombre_12","nombre":"Oier","curso":"Electricidad","experiencia":2,"centro":"Peñascal","skills":["Domótica","Canalización"]}
+{"identificador":"nombre_13","nombre":"Asier","curso":"Electricidad","experiencia":0,"centro":"Peñascal","skills":["Cableado"]}
+{"identificador":"nombre_14","nombre":"Mikel","curso":"Electricidad","experiencia":1,"centro":"Peñascal","skills":["Cuadros eléctricos","Soldadura"]}
+{"identificador":"nombre_15","nombre":"Gaizka","curso":"Electricidad","experiencia":2,"centro":"Peñascal","skills":["Instalación trifásica","Protecciones"]}
+{"identificador":"nombre_16","nombre":"Iñigo","curso":"Electricidad","experiencia":1,"centro":"Peñascal","skills":["Domótica","Sensores"]}
+{"identificador":"nombre_17","nombre":"Hodei","curso":"Electricidad","experiencia":0,"centro":"Peñascal","skills":["Cableado"]}
+{"identificador":"nombre_18","nombre":"Aritz","curso":"Electricidad","experiencia":1,"centro":"Peñascal","skills":["Canaleta","Medición"]}
+{"identificador":"nombre_19","nombre":"Unax","curso":"Electricidad","experiencia":2,"centro":"Peñascal","skills":["Cuadros","Tendido"]}
+{"identificador":"nombre_20","nombre":"Eneko","curso":"Electricidad","experiencia":1,"centro":"Peñascal","skills":["Cableado","Multímetro"]}
+
+{"identificador":"nombre_21","nombre":"Nahia","curso":"Moda y Comercio","experiencia":1,"centro":"Peñascal","skills":["Costura","Patronaje"]}
+{"identificador":"nombre_22","nombre":"Irati","curso":"Moda y Comercio","experiencia":2,"centro":"Peñascal","skills":["Ventas","Atención al cliente"]}
+{"identificador":"nombre_23","nombre":"June","curso":"Moda y Comercio","experiencia":0,"centro":"Peñascal","skills":["Costura"]}
+{"identificador":"nombre_24","nombre":"Leire","curso":"Moda y Comercio","experiencia":1,"centro":"Peñascal","skills":["Patronaje","Corte"]}
+{"identificador":"nombre_25","nombre":"Nora","curso":"Moda y Comercio","experiencia":2,"centro":"Peñascal","skills":["Escaparatismo","Ventas"]}
+{"identificador":"nombre_26","nombre":"Uxue","curso":"Moda y Comercio","experiencia":1,"centro":"Peñascal","skills":["Costura","Medición"]}
+{"identificador":"nombre_27","nombre":"Laida","curso":"Moda y Comercio","experiencia":0,"centro":"Peñascal","skills":["Costura"]}
+{"identificador":"nombre_28","nombre":"Elene","curso":"Moda y Comercio","experiencia":1,"centro":"Peñascal","skills":["Patronaje","Corte"]}
+{"identificador":"nombre_29","nombre":"Ainhoa","curso":"Moda y Comercio","experiencia":2,"centro":"Peñascal","skills":["Ventas","Atención"]}
+{"identificador":"nombre_30","nombre":"Olaia","curso":"Moda y Comercio","experiencia":1,"centro":"Peñascal","skills":["Costura","Patronaje"]}
+
+{"identificador":"nombre_31","nombre":"Aritz","curso":"Hostelería","experiencia":1,"centro":"Peñascal","skills":["Cafetería","Atención"]}
+{"identificador":"nombre_32","nombre":"Mikel","curso":"Hostelería","experiencia":2,"centro":"Peñascal","skills":["Sala","Montaje"]}
+{"identificador":"nombre_33","nombre":"Gaizka","curso":"Hostelería","experiencia":0,"centro":"Peñascal","skills":["Atención"]}
+{"identificador":"nombre_34","nombre":"Odei","curso":"Hostelería","experiencia":1,"centro":"Peñascal","skills":["Cafetería","Montaje"]}
+{"identificador":"nombre_35","nombre":"Jon","curso":"Hostelería","experiencia":2,"centro":"Peñascal","skills":["Cocina fría","Sala"]}
+{"identificador":"nombre_36","nombre":"Iker","curso":"Hostelería","experiencia":1,"centro":"Peñascal","skills":["Cafetería","Bandeja"]}
+{"identificador":"nombre_37","nombre":"Unai","curso":"Hostelería","experiencia":0,"centro":"Peñascal","skills":["Atención"]}
+{"identificador":"nombre_38","nombre":"Ane","curso":"Hostelería","experiencia":1,"centro":"Peñascal","skills":["Cafetería","Montaje"]}
+{"identificador":"nombre_39","nombre":"Nora","curso":"Hostelería","experiencia":2,"centro":"Peñascal","skills":["Sala","Montaje"]}
+{"identificador":"nombre_40","nombre":"Leire","curso":"Hostelería","experiencia":1,"centro":"Peñascal","skills":["Cafetería","Atención"]}
+
+{"identificador":"nombre_41","nombre":"Nora","curso":"Cocina","experiencia":1,"centro":"Peñascal","skills":["Corte","Plancha"]}
+{"identificador":"nombre_42","nombre":"Uxue","curso":"Cocina","experiencia":2,"centro":"Peñascal","skills":["Horno","Emplatado"]}
+{"identificador":"nombre_43","nombre":"Laida","curso":"Cocina","experiencia":0,"centro":"Peñascal","skills":["Corte"]}
+{"identificador":"nombre_44","nombre":"Elene","curso":"Cocina","experiencia":1,"centro":"Peñascal","skills":["Salsas","Plancha"]}
+{"identificador":"nombre_45","nombre":"Ane","curso":"Cocina","experiencia":2,"centro":"Peñascal","skills":["Horno","Cocción"]}
+{"identificador":"nombre_46","nombre":"Irati","curso":"Cocina","experiencia":1,"centro":"Peñascal","skills":["Corte","Higiene"]}
+{"identificador":"nombre_47","nombre":"June","curso":"Cocina","experiencia":0,"centro":"Peñascal","skills":["Corte"]}
+{"identificador":"nombre_48","nombre":"Leire","curso":"Cocina","experiencia":1,"centro":"Peñascal","skills":["Plancha","Salsas"]}
+{"identificador":"nombre_49","nombre":"Nahia","curso":"Cocina","experiencia":2,"centro":"Peñascal","skills":["Horno","Emplatado"]}
+{"identificador":"nombre_50","nombre":"Olaia","curso":"Cocina","experiencia":1,"centro":"Peñascal","skills":["Corte","Plancha"]}
+
+{"identificador":"nombre_51","nombre":"Farid","curso":"Idioma Castellano","experiencia":1,"centro":"Peñascal","skills":["Conversación","Lectura"]}
+{"identificador":"nombre_52","nombre":"Samira","curso":"Idioma Castellano","experiencia":2,"centro":"Peñascal","skills":["Escritura","Gramática"]}
+{"identificador":"nombre_53","nombre":"Yassin","curso":"Idioma Castellano","experiencia":0,"centro":"Peñascal","skills":["Lectura"]}
+{"identificador":"nombre_54","nombre":"Karim","curso":"Idioma Castellano","experiencia":1,"centro":"Peñascal","skills":["Conversación","Vocabulario"]}
+{"identificador":"nombre_55","nombre":"Amina","curso":"Idioma Castellano","experiencia":2,"centro":"Peñascal","skills":["Lectura","Redacción"]}
+{"identificador":"nombre_56","nombre":"Sofía","curso":"Idioma Castellano","experiencia":1,"centro":"Peñascal","skills":["Conversación","Comprensión"]}
+{"identificador":"nombre_57","nombre":"Lina","curso":"Idioma Castellano","experiencia":0,"centro":"Peñascal","skills":["Lectura"]}
+{"identificador":"nombre_58","nombre":"Hakim","curso":"Idioma Castellano","experiencia":1,"centro":"Peñascal","skills":["Conversación","Lectura"]}
+{"identificador":"nombre_59","nombre":"Rachid","curso":"Idioma Castellano","experiencia":2,"centro":"Peñascal","skills":["Redacción","Gramática"]}
+{"identificador":"nombre_60","nombre":"Mariam","curso":"Idioma Castellano","experiencia":1,"centro":"Peñascal","skills":["Conversación","Lectura"]}
+
+{"identificador":"nombre_61","nombre":"Alumno51","curso":"Carpintería","experiencia":1,"centro":"Peñascal","skills":["Lijado","Montaje"]}
+{"identificador":"nombre_62","nombre":"Alumno52","curso":"Electricidad","experiencia":2,"centro":"Peñascal","skills":["Cableado","Multímetro"]}
+{"identificador":"nombre_63","nombre":"Alumno53","curso":"Moda y Comercio","experiencia":0,"centro":"Peñascal","skills":["Costura"]}
+{"identificador":"nombre_64","nombre":"Alumno54","curso":"Hostelería","experiencia":1,"centro":"Peñascal","skills":["Cafetería","Atención"]}
+{"identificador":"nombre_65","nombre":"Alumno55","curso":"Cocina","experiencia":2,"centro":"Peñascal","skills":["Horno","Plancha"]}
+{"identificador":"nombre_66","nombre":"Alumno56","curso":"Idioma Castellano","experiencia":1,"centro":"Peñascal","skills":["Lectura","Conversación"]}
+{"identificador":"nombre_67","nombre":"Alumno57","curso":"Carpintería","experiencia":0,"centro":"Peñascal","skills":["Lijado"]}
+{"identificador":"nombre_68","nombre":"Alumno58","curso":"Electricidad","experiencia":1,"centro":"Peñascal","skills":["Cableado","Canaleta"]}
+{"identificador":"nombre_69","nombre":"Alumno59","curso":"Moda y Comercio","experiencia":2,"centro":"Peñascal","skills":["Ventas","Costura"]}
+{"identificador":"nombre_70","nombre":"Alumno60","curso":"Hostelería","experiencia":1,"centro":"Peñascal","skills":["Sala","Montaje"]}
+
+{"identificador":"nombre_71","nombre":"Alumno61","curso":"Cocina","experiencia":0,"centro":"Peñascal","skills":["Corte"]}
+{"identificador":"nombre_72","nombre":"Alumno62","curso":"Idioma Castellano","experiencia":1,"centro":"Peñascal","skills":["Lectura","Conversación"]}
+{"identificador":"nombre_73","nombre":"Alumno63","curso":"Carpintería","experiencia":2,"centro":"Peñascal","skills":["Corte","Montaje"]}
+{"identificador":"nombre_74","nombre":"Alumno64","curso":"Electricidad","experiencia":1,"centro":"Peñascal","skills":["Multímetro","Cableado"]}
+{"identificador":"nombre_75","nombre":"Alumno65","curso":"Moda y Comercio","experiencia":0,"centro":"Peñascal","skills":["Costura"]}
+{"identificador":"nombre_76","nombre":"Alumno66","curso":"Hostelería","experiencia":2,"centro":"Peñascal","skills":["Sala","Cafetería"]}
+{"identificador":"nombre_77","nombre":"Alumno67","curso":"Cocina","experiencia":1,"centro":"Peñascal","skills":["Plancha","Corte"]}
+{"identificador":"nombre_78","nombre":"Alumno68","curso":"Idioma Castellano","experiencia":2,"centro":"Peñascal","skills":["Redacción","Lectura"]}
+{"identificador":"nombre_79","nombre":"Alumno69","curso":"Carpintería","experiencia":1,"centro":"Peñascal","skills":["Lijado","Montaje"]}
+{"identificador":"nombre_80","nombre":"Alumno70","curso":"Electricidad","experiencia":0,"centro":"Peñascal","skills":["Cableado"]}

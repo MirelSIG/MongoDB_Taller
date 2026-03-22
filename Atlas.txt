@@ -1,0 +1,59 @@
+2) Instrucciones para pasar a MongoDB Atlas (fase Apps en la Nube)
+Aquí viene la transición natural del taller:
+del entorno local → a la nube → a aplicaciones full‑stack.
+---
+Paso 1 — Crear la Organización y Proyecto
+En Atlas:
+1. Crear organización: MongoDB-2026
+2. Crear proyecto: Proyecto-MongoDB
+---
+Paso 2 — Crear el Cluster
+• Nombre: Cluster-MongoDB
+• Tipo: M0 (gratuito)
+• Región: EU (Frankfurt o Irlanda)
+---
+Paso 3 — Crear las bases de datos y colecciones
+En Atlas → Browse Collections → Add My Own Data:
+Crear:
+penascal-matricula
+  ├─ penascal-bilbao
+  └─ penascal-vitoria
+
+penascal-docentes
+  └─ profesores
+
+penascal-socios
+  └─ socios
+
+penascal-proveedores
+  └─ proveedores
+____________________________
+A. mongoimport \
+  --uri "mongodb+srv://mmvolcan_db_user:Dq3MshzAyWJCMGjY@clustermongodb.teutw7k.mongodb.net/penascal-matricula" \
+  --collection penascal-bilbao \
+  --file penascal-matricula.penascal-bilbao.ndjson \
+  --type json
+
+B. mongoimport \
+  --uri "mongodb+srv://mmvolcan_db_user:Dq3MshzAyWJCMGjY@clustermongodb.teutw7k.mongodb.net/penascal-matricula" \
+  --collection penascal-vitoria \
+  --file penascal-matricula.penascal-vitoria.ndjson \
+  --type json
+
+C. mongoimport \
+  --uri "mongodb+srv://mmvolcan_db_user:Dq3MshzAyWJCMGjY@clustermongodb.teutw7k.mongodb.net/penascal-docentes" \
+  --collection profesores \
+  --file penascal-docentes.profesores.ndjson \
+  --type json
+
+D. mongoimport \
+  --uri "mongodb+srv://mmvolcan_db_user:Dq3MshzAyWJCMGjY@clustermongodb.teutw7k.mongodb.net/penascal-proveedores" \
+  --collection proveedores \
+  --file penascal-proveedores.proveedores.ndjson \
+  --type json
+
+E. mongoimport \
+  --uri "mongodb+srv://mmvolcan_db_user:Dq3MshzAyWJCMGjY@clustermongodb.teutw7k.mongodb.net/penascal-socios" \
+  --collection socios \
+  --file penascal-socios.socios.ndjson \
+  --type json
