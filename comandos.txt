@@ -79,7 +79,7 @@ Comandos básicos de MongoDB
     CONSULTAS POR SEDES
 5. Para contar la cantidad de documentos en la coleccion una vez dentro de la DDBB:
     db["penascal-bilbao"].countDocuments()
-6. Para listar los primeros 5 documentos de la co;leccion:
+6. Para listar los primeros 5 documentos de la coleccion:
     db["penascal-bilbao"].find().limit(5).
 Esto devuelve 5 objetos en el orden que tenga mongodb en su sistema.
     db["penascal-bilbao"].find().sort({ _id: 1 }).limit(5)

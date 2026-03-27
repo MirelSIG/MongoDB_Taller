@@ -105,4 +105,5 @@ Colecciones que se cargan en Atlas:
 
 ## 5) Nota sobre $lookup
 
-Como Atlas en este taller usa bases separadas, el endpoint `GET /api/join/proveedores-socios` hace el join en la app (por `ciudad`) en lugar de usar `$lookup` directo entre bases.
+Para que el ejemplo sea facil de entender, `POST /seed` crea una copia de `socios` dentro de la base `penascal-proveedores` (coleccion `socios`).
+Asi, `GET /api/join/proveedores-socios` ejecuta un `$lookup` simple por `ciudad` directamente en MongoDB.

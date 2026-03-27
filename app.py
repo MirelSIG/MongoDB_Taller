@@ -138,8 +138,8 @@ INDEX_HTML = """
           <button onclick="run('/api/socios?ciudad=Bilbao')">GET /api/socios?ciudad=Bilbao</button>
         </div>
         <div class="card">
-          <h3>Join proveedores-socios</h3>
-          <p>Relacion por ciudad entre bases separadas.</p>
+          <h3>Lookup proveedores-socios</h3>
+          <p>Relacion simple por ciudad usando <code>$lookup</code>.</p>
           <button class="secondary" onclick="run('/api/join/proveedores-socios')">GET /api/join/proveedores-socios</button>
         </div>
       </div>
@@ -253,6 +253,19 @@ def seed():
             "count": len(docs),
         }
 
+    # Copia de apoyo para demo: $lookup trabaja sobre colecciones en la misma base.
+    socios_docs = list(current_client[DB_SOCIOS].socios.find({}, {"_id": 0}))
+    socios_lookup_col = current_client[DB_PROVEEDORES].socios
+    socios_lookup_col.drop()
+    if socios_docs:
+        socios_lookup_col.insert_many(socios_docs)
+    imported["socios_lookup_en_proveedores"] = {
+        "ok": True,
+        "database": DB_PROVEEDORES,
+        "collection": "socios",
+        "count": len(socios_docs),
+    }
+
     return jsonify({"ok": True, "collections": imported})
 
 
@@ -317,27 +330,31 @@ def join_proveedores_socios():
     if err:
         return err
 
-    socios_counts_cursor = current_client[DB_SOCIOS].socios.aggregate(
-        [{"$group": {"_id": "$ciudad", "total": {"$sum": 1}}}]
-    )
-    socios_counts = {x["_id"]: x["total"] for x in socios_counts_cursor}
-
-    proveedores_rows = list(
-        current_client[DB_PROVEEDORES]
-        .proveedores.find({}, {"_id": 0, "id": 1, "nombre": 1, "ciudad": 1})
-        .sort("id", 1)
-        .limit(100)
-    )
-    rows = []
-    for proveedor in proveedores_rows:
-        rows.append(
-            {
-                "id": proveedor.get("id"),
-                "nombre": proveedor.get("nombre"),
-                "ciudad": proveedor.get("ciudad"),
-                "total_socios_relacionados": socios_counts.get(proveedor.get("ciudad"), 0),
-            }
+    rows = list(
+        current_client[DB_PROVEEDORES].proveedores.aggregate(
+            [
+                {
+                    "$lookup": {
+                        "from": "socios",
+                        "localField": "ciudad",
+                        "foreignField": "ciudad",
+                        "as": "socios_relacionados",
+                    }
+                },
+                {
+                    "$project": {
+                        "_id": 0,
+                        "id": 1,
+                        "nombre": 1,
+                        "ciudad": 1,
+                        "total_socios_relacionados": {"$size": "$socios_relacionados"},
+                    }
+                },
+                {"$sort": {"id": 1}},
+                {"$limit": 100},
+            ]
         )
+    )
     return jsonify({"count": len(rows), "items": rows})
 
 
