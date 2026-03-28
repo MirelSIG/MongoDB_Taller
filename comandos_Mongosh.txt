@@ -15,11 +15,11 @@ o, sigue estas instrucciones las cuales funcionan en las máquinas del aula, por
 
     1. Linux Mint 22.2 (Zara)
 
-    2. Node.js instalado mediante nvm
+    2. Node.js instalado mediante nm
 
     3. npm en: /home/<usuario>/.nvm/versions/node/<version>/bin/npm
 
-    4. Restricciones de red que bloquean descargas desde downloads.mongodb.com (Por eso NO funcionan los métodos tradicionales (apt, .deb, .tgz).
+    4. Restricciones de red que bloquean descargas desde downloads.mongodb.com. Por eso NO funcionan los métodos tradicionales (apt, .deb, .tgz).
     5. El único método fiable es instalar mongosh desde npm.
     Para ello:
               1. Verificar que npm está instalado:
@@ -54,7 +54,7 @@ Para crear la primera coleccion es necesario haber creado al menos un documento 
 
 1. Ejecuta desde la carpeta donde estan almacenados los datos, cada uno de los siguientes bloques de codigo 
     (Sin la letra, esta solo sirve para conectar la lista anterior con cada bloque de codigo),
-    con los cuales crearas las bases de datos, colecciones y documentos (NDJSON) con los cuales practicaremos el 
+    para crear las bases de datos, colecciones y documentos (NDJSON) con los cuales practicaremos el 
     manejo de una DDBB no relacional (MongoDB)
 
 A. mongoimport \
@@ -104,7 +104,7 @@ Comandos básicos de MongoDB
     CONSULTAS POR SEDES
 5. Para contar la cantidad de documentos en la coleccion una vez dentro de la DDBB:
     db["penascal-bilbao"].countDocuments()
-6. Para listar los primeros 5 documentos de la co;leccion:
+6. Para listar los primeros 5 documentos de la coleccion:
     db["penascal-bilbao"].find().limit(5).
 Esto devuelve 5 objetos en el orden que tenga mongodb en su sistema.
     db["penascal-bilbao"].find().sort({ _id: 1 }).limit(5)
