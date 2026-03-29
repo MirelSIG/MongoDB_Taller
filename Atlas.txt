@@ -1,6 +1,8 @@
 2) Instrucciones para pasar a MongoDB Atlas (fase Apps en la Nube)
 Aquí viene la transición natural del taller:
 del entorno local → a la nube → a aplicaciones full‑stack.
+Entrar al sitio https://www.mongodb.com/products/platform/atlas-database
+Crea cuenta si aun no la tienes y luego inicia con "Paso 1"
 ---
 Paso 1 — Crear la Organización y Proyecto
 En Atlas:
